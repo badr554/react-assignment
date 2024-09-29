@@ -1,0 +1,11 @@
+
+.CustomerCards h2{
+    color: black;
+}
+.CustomerCards img{
+    border-radius: 10px;
+height: 210px;
+}
+.CustomerCards{
+    width: calc((100% - 4rem) / 3);
+}

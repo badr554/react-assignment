@@ -1,0 +1,50 @@
+.banner{
+background: linear-gradient(45deg,rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(https://img.freepik.com/free-photo/stony-beach-landscape_23-2151716245.jpg?t=st=1727557961~exp=1727561561~hmac=32ec127b65492094346a40b99fd291ad36b1b1ca8fac8b778847f3794c0d2a89&w=1480);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;   
+    position: relative;
+}
+.content h1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.content h2{
+    font-style: italic;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    transform: translateY(-40%);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.swiber{
+    display: flex;
+    gap: 2rem;
+justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55%;
+    transform: translate(-20px, 50px);
+    color: gray;
+    font-size: 2rem;
+    text-align: center;
+}
+.swiber p{
+    font-size: 16px;
+}
+.active{
+    color: white;
+}

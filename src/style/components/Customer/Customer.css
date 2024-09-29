@@ -1,0 +1,9 @@
+.Cards{
+    margin-top: 9rem;
+    margin-inline: 5rem;
+}
+.Cards{
+    display: flex;
+    gap: 2rem;   
+    flex-wrap: wrap;
+}
